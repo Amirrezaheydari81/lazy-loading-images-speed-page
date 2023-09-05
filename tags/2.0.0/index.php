@@ -8,7 +8,7 @@
  * Plugin Name: Lazy Loading images & speed page
  * Plugin URI: https://t-ma.ir
  * Description: Optimize Loading all image website
- * Version: 2.0.1
+ * Version: 2.0.0
  * Author: Amirreza Heydari & mohammad bagheri
  * Author URI: https://clarotm.ir
  * License: GPL v2 or later
@@ -17,7 +17,7 @@ function add_class_to_attachment_image($attr, $attachment) {
     $attr['class'] .= ' lozad ';
     return $attr;
 }
-add_filter('wp_get_attachment_image_attributes', 'add_class_to_attachment_image', 99, 2);
+add_filter('wp_get_attachment_image_attributes', 'add_class_to_attachment_image', 10, 2);
 
 add_action('wp_body_open', 'Lazy_loading_CT');
 function Lazy_loading_CT()
@@ -39,9 +39,3 @@ function your_theme_adding_extra_attributes(){
     </script>
 <?php
 }
-
-function add_meta_tags_ctm() {
-    echo '<meta name="generator" content="سیستم تولید محتوا تیم کلارو">';
-    echo '<meta name="DC.Publisher" content="clarotm website design company">';
-}
-add_action('wp_head', 'add_meta_tags_ctm');

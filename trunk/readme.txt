@@ -1,10 +1,11 @@
 === Plugin Name ===
+Plugin Name: Lazy Loading images & speed page
 Contributors: clarotm, mmbi18
 Donate link:
 Tags: lazy, loading, lazy-loading, speedpage, optimize, lazy-images, images
-Requires at least: 1.0
-Tested up to: 6.0
-Stable tag: 1.0
+Requires at least: 5.0
+Tested up to: 6.3.1
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
@@ -24,7 +25,9 @@ This is the initial version and if there is any problem please let us know
 * Set logo in cover plugin
 = 1.0.2 =
 * Optimize jquery File
-= 1.0.3 =
+= 2.0.0 =
 * The bug has been fixed
 * The speed of the plugin has been tripled
 * Improved algorithm
+= 2.0.1 =
+* The bug has been fixed

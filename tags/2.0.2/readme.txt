@@ -33,5 +33,3 @@ This is the initial version and if there is any problem please let us know
 * The bug has been fixed
 = 2.0.2 =
 * The bug has been fixed
-= 2.0.3 =
-* fix bug

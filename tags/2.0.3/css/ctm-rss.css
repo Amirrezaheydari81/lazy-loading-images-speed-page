@@ -1,0 +1,61 @@
+/* Font Dana Pro add page */
+@font-face {
+  font-family: Danapro;
+  src: url("https://waregint.sirv.com/iseokar.ir/fonts/Dana-Regular.woff2")
+    format("woff2");
+}
+
+.ctm-rss {
+  font-family: Danapro !important;
+  background: #e57c23;
+  padding: 20px 10px;
+  border-radius: 20px;
+}
+.ctm-rss hr {
+  border: 0;
+  background-color: #dfdfdf;
+  height: 0;
+}
+.ctm-rss-title a {
+  text-decoration: none;
+  color: #f8f1f1;
+  font-weight: normal;
+}
+.ctm-rss-title {
+  color: #333333;
+  background: #025464;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+.ctm-rss-magale {
+  color: #ffffff;
+  margin: 20px auto;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+.ctm-rss-magale:hover{
+  box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25);
+}
+.ctm-rss-magale p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.ctm-rss-magale-link {
+  color: #f8f1f1;
+}
+.ctm-rss-magale-date {
+  background: #ffffff;
+  color: #025464;
+  font-weight: bold;
+  padding: 3px 5px;
+  font-size: 9px;
+  border-radius: 5px;
+}
+.ctm-rss .icons-ctm{
+color: #ffffff;
+/* background: #ffffff; */
+/* box-shadow: 0 0 30px #ffffff; */
+/* border-radius:5px; */
+margin-left: 5px;
+}

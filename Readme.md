@@ -1,6 +1,8 @@
-<a href="https://wordpress.org/plugins/lazy-loading-images-speed-page/" style="text-center">
+<center>
+<a href="https://wordpress.org/plugins/lazy-loading-images-speed-page/">
 <img src="assets/banner-772×250.png">
 </a>
+</center>
 
 > Upgrade Notice
 - 1.0

@@ -2,7 +2,9 @@
 <a href="https://wordpress.org/plugins/lazy-loading-images-speed-page/">
 <img src="assets/banner-772×250.png">
 </a>
+<a href="https://wordpress.org/plugins/lazy-loading-images-speed-page/"> <b><i>Install Now</i></b></a>
 </center>
+<br/>
 
 > Upgrade Notice
 - 1.0
